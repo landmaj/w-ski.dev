@@ -1,0 +1,37 @@
+baseURL = "https://w-ski.dev"
+title = "Michał Wieluński"
+languageCode = "en-us"
+publishDir = "docs"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+
+[taxonomies]
+  series = "series"
+
+[params]
+    author = "Michał Wieluński"
+    avatar = "avatar.jpg"
+    favicon = "favicon.ico"
+    description = """
+        Programmer on weekdays, volunteer at animal shelter on weekends.
+        <a href="https://github.com/landmaj">
+            <img src="https://ghchart.rshah.org/landmaj" id="github-graph"/>
+        </a>
+        michal [at] w-ski [dot] dev
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+     custom_css = ["/css/custom.css"]
+     custom_js = ["/js/custom.js"]
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "linkedin"
+#    name = "LinkedIn"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/w-ski/"
+    weight = 30

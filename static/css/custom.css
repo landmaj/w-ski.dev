@@ -1,0 +1,44 @@
+#github-graph {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    animation-name: slide-in;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+
+/* Header */
+header .avatar {
+    height: 250px;
+}
+
+header .avatar img {
+    width: 250px;
+}
+
+header .avatarMask {
+    clip-path: circle(120px at center);
+    -webkit-clip-path: circle(120px at center);
+}
+
+body {
+    font-size: 1.3rem;
+}
+
+footer, #searchBox {
+    display: none;
+}
+
+#contentBody p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+#contentBody blockquote p {
+    text-indent: 0;
+}
+
+#contentBody p img {
+    float: left;
+    margin-bottom: 1em;
+}
