@@ -14,7 +14,7 @@ hasCJKLanguage = true
     avatar = "avatar.jpg"
     favicon = "favicon.ico"
     description = """
-        Programmer on weekdays, volunteer at animal shelter on weekends.
+        Programmer on weekdays, volunteer at an animal shelter on weekends.
         <a href="https://github.com/landmaj">
             <img src="https://ghchart.rshah.org/landmaj" id="github-graph"/>
         </a>
